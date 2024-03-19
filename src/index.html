@@ -1,47 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Excuse Generator</title>
-    <style>
-      body {
-        font-family: "Arial", sans-serif;
-        text-align: center;
-        margin: 50px;
-      }
-      button {
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-      }
-      #excuse {
-        margin-top: 20px;
-        font-size: 18px;
-      }
-    </style>
+    <title>Hello Rigo with Vanilla.js</title>
+    <link rel="stylesheet" href=
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous" />
+    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <h1>Excuse Generator</h1>
-    <button onclick="generateExcuse()">Generate Excuse</button>
-    <p id="excuse"></p>
-
-    <script>
-      const excuses = [
-        "My dog ate my homework.",
-        "'My grandma broke the car while I was praying.",
-        " His turtle crushed the keys before class.",
-        "My bird ate my homework when I finished.",
-        "My brother peed the car during my lunch.",
-        "The dog ate the keys while I was praying."
-      ];
-
-      function generateExcuse() {
-        const excuseElement = document.getElementById("excuse");
-        const randomIndex = Math.floor(Math.random() * excuses.length);
-        const randomExcuse = excuses[randomIndex];
-        excuseElement.textContent = randomExcuse;
-      }
-    </script>
+    <div class="container-fluid text-center">
+      <h1 class="mt-5">HOLA ALVARO Y DAVID</h1>
+      <img
+        src="https://img.freepik.com/vector-premium/dibujos-animados-corazones-rojos-aislado-blanco_106293-308.jpg"
+      />
+      <p id="nuevaexcusa" class="alert alert-warning mt-4"></p>
+      <div class="fixed-bottom p-4">
+        Made with ANTONIA
+        <a href="https://www.4geeksacademy.com">ANTONIA</a>
+      </div>
+    </div>
   </body>
 </html>
+
